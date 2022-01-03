@@ -44,7 +44,7 @@ function App() {
     <div className={(typeof weather.main !="undefined")? 
     ((weather.main.temp>16)?"app warm":"app") :"app"}>
    <div>
-    <h1 className='text'>Enter the Name of  place to know the temperature</h1>
+    <h1 className='text'>Enter  name of  place to know the temperature</h1>
   </div>
 
   
