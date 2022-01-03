@@ -77,10 +77,7 @@ function App() {
       </div>
        ):('')}
       </main>
-      <div>
-        <h1>Enter the place to know the temperature</h1>
-      </div>
-
+      
       
       
        
