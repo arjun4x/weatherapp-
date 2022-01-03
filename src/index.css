@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    font-family:'montseratt','san-serif';
+}
+.app{
+    background-image : url('./images/cloudy.jpg');
+    background-size:cover;
+    background-position: bottom;
+   
+}
+.app-warm{
+    background-image:url(https://www.survivingwithandroid.com/wp-content/uploads/2014/11/android_weather_app.jpg);
+
+}
+main{
+    min-height : 100vh;
+    background-image : linear-gradient(to bottom,rgba(0,0,0,0.2),rgba(0,0,0,0.75));
+    padding : 25px;
+    
+}
+.search-box{
+    width : 100%;
+    margin : 0 0 75px;
+    
+  
+}
+.search{
+    padding-left :560px;
+}
+
+.search-box .search-bar{
+    display : block;
+    width :100%;
+    padding-left : 150px;
+   
+
+    appearance : none;
+    background : none;
+    border : none;
+    outline : none;
+
+    background-color : rgba(255,255,255,0.5);
+    border-radius : 0px 0px 16px 16px;
+    margin-top : -25px;
+    box-shadow : 0px 5px rgba(0,0,0,0.2);
+
+    color : #313131;
+    font-size : 20px;
+
+    transition: 0.4 ease;
+}
+.location-box .location{
+    padding-top: 50px;
+    color : #FFF;
+    font-size : 32px;
+    font-weight : 500;
+    text-align : center;
+    text-shadow : 3px 3px rgba(50, 50, 70, 0.5 ); 
+}
+.location-box .date{
+    color : #FFF;
+    font-size : 20px;
+    font-weight : 300;
+    font-style : italic;
+    text-align : center;
+    text-shadow : 2px 2px rgba(50, 50, 70, 0.5 ); 
+}
+.weather-box .temp{
+   
+    position : relative;
+    margin : 30px auto;
+    margin-left:520px;
+    display : inline-block;
+    background-color : rgba(255,255,255,0.1);
+    border-radius : 40px;
+    padding : 15px 25px ;
+    
+     color : rgba(255,255,255,0.5);
+     font-size : 102px;
+     font-weight : 900;
+
+     text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+     text-align: center;
+
+}
+.weather1-box {
+    
+    background-color: rgba(255,255,255,0.1);
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.4);
+    text-shadow:  3px 6px rgba(50, 50, 70, 0.5);
+    padding : 15px 25px ;
+    text-align:center;
+    border-radius: 40px;
+    display : inline-block;
+   margin-left:560px;
+    
+   
+    
+}
+.temp{
+    margin-left: 500px;
+}
